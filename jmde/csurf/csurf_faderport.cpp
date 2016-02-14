@@ -111,7 +111,7 @@ CSurf_FaderPort::CSurf_FaderPort(int indev, int outdev, int *errStats)
 		
         
 #ifdef _LETS_DRAW
-        if(g_enable_intro) Display(g_intro_string, m_midiout, 200, 100);
+        if(g_enable_intro) Display(g_intro_string, m_midiout, 300, 150);
 #endif
 	}
 	
